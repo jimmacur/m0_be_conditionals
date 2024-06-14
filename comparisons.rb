@@ -83,6 +83,7 @@ puts attendees != meals
 # YOU DO: Explain.
 # This will print the result of the comparison - is the variable attendees (9) not equal to the variable meals(8)
 # this should print: true
+
 #-------------------
 # PART 3: Logical Operators
 #-------------------
@@ -103,16 +104,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
+puts loves_to_play && age < 2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It evaluated to true because both statements were true. The value of the variable age is less than 2 and 
+# the value of the variable love_to_play is true
